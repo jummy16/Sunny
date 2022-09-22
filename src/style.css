@@ -1,0 +1,274 @@
+body{
+  margin: -120px 0 0 0;
+}
+.header--img{
+  width: 100%; 
+  min-height: 100vh;
+}
+.header--mobile--img{
+  display: none;
+}
+.header--h4{
+  margin-left: 10px;
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  position: relative;
+  top: 80px;
+}
+.header--ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+    padding-top: 15px;
+    position: relative;
+    top: 80px;
+    color: #fff;
+    gap: 15px;
+}
+.header--h1{
+  text-align: center;
+  position: relative;
+  top: 250px;
+  left: 80px;
+  color: #fff;
+}
+.contact{
+  background-color: #fff;
+  color: #000;
+  border-radius: 40%;
+  width: 70px;
+  padding: 10px;
+  font-size: 13px;
+  margin-top: -5px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-1{
+  margin-right: 60px;
+  line-height: 1.6;   
+ }
+ .col-2{
+  margin-left: 60px;
+  line-height: 1.6;
+ }
+ .info--egg{
+  margin-top: -4px;
+  width: 89%;
+  display: none;
+ }
+ .egg{
+  width: 50%;
+ }
+ .info--text{
+  opacity: 0.5;
+  width: 200px;
+  word-break: break-all;
+ }
+ .info--link{
+  color: #000;
+  text-decoration: none;
+ }
+ .info--h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .aud{
+  width: 50%;
+ }
+ .aud--img{
+  margin-top: -5px;
+  width: 89%;
+ }
+ .fruit--img{
+  position: relative;
+  margin-top: -8px;
+  width: 100%;
+ }
+ .fruit--text{
+  position: relative;
+  bottom: 200px;
+  left: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  word-break: break-all;
+  width: 200px;
+ }
+ .fruit--img-tangerine{
+  margin-bottom: 26px;
+  width: 100%;
+ }
+ .fruit--txt{
+  opacity: 0.5;
+ }
+ .fruit--h2{
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .client--h3{
+  position: relative;
+  bottom: 200px;
+  left: 500px;
+  opacity: 0.5;
+ }
+ .client--img{
+  border-radius: 50%;
+  width: 20%;
+ }
+ .client{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 180px;
+  gap: 100px;
+ }
+ .client--text{
+  word-break: break-all;
+  width: 250px;
+ }
+ .client--h5{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .client--p{
+  text-align: center;
+  opacity: 0.2;
+ }
+ .image{
+  margin-top: 70px;
+  width: 100%;
+ }
+ .gallery{
+  width: 100%;
+ }
+ footer{
+  background-color: lightblue;
+  padding: 50px;
+  
+ }
+ .footer--h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  opacity: 0.7;
+  }
+ .footer--ul{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  list-style: none;
+  opacity: 0.5;
+  }
+ .footer--svg{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  opacity: 1;
+  gap: 30px;
+ }
+ .standout--mobile-img{
+  display: none;
+ }
+ .mobile--gallery{
+  display: none;
+ }
+ .bar{
+  display: none;
+ }
+
+ @media only screen and (max-width:450px) {
+  .header--img{
+    display: none;
+  }
+  .header--h4{
+    float: left;
+	  /* overflow-y: scroll; */
+  }
+  .header--h1{
+    margin-right: 80px;
+    left: 5px;
+  }
+  .header--ul{
+    display: none;
+  }
+  .header--mobile--img{
+    display: block;
+    width: 100%;
+  }
+  .info--mobile--egg{
+    width: 100%;
+  }
+  .info--mobile{
+    width: 100%;
+  }
+  .row{
+    display: inline;
+    width:200px
+  }
+  .standout--mobile-img{
+    display: block;
+    width: 100%;
+  }
+  .standout{
+    width: 100%;
+  }
+  .aud--img{
+    display: none;
+  }
+  .col-1{
+    margin-left: 60px;
+    line-height: 1.6;
+    padding-bottom: 20px;   
+   }
+   .apple{
+      width: 100%;
+   }
+   .fruit--img{
+    display: none;
+   }
+   .fruit--text{
+    margin-left: -100px;
+   }
+   .fruit--img-tangerine{
+    display: none;
+   }
+   .tangerine{
+    width: 100%;
+    margin-top: -170px;
+   }
+   .client{
+    display: inline;
+   }
+   .client--img{
+      margin-left: 120px;
+   }
+   .client--text{
+    margin-left: 50px;
+   }
+   .mobile--gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   }
+   .mobile-gallery-img{
+    width: 100%;
+   }
+   .gallery{
+    display: none;
+   }
+   .bar{
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    width: 30px;
+   }
+ }
